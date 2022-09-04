@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: linear-gradient(
+          90deg,
+          rgb(72, 197, 143),
+          rgb(180, 141, 230)
+        );
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .box-1,
+      .box-2,
+      .box-3 {
+        width: 305px;
+        height: 470px;
+        background-color: white;
+        border: none;
+        border-radius: 15px;
+        margin-right: 25px;
+        overflow-y: hidden;
+        position: relative;
+        top: 180px;
+      }
+      p,
+      h2 {
+        padding: 5px 10px;
+      }
+      .visitor {
+        display: flex;
+        flex-grow: row;
+      }
+
+      .btn-1 {
+        width: 80px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+        margin: 10px 10px;
+        background-color: rgb(18, 186, 215);
+        color: white;
+        text-align: center;
+        font: 0.8em sans-serif;
+      }
+      .btn-2 {
+        width: 45px;
+        height: 20px;
+        border: none;
+        border-radius: 11px;
+        margin: 10px 10px;
+        background-color: orange;
+        color: white;
+        text-align: left;
+        font: 0.8em sans-serif;
+      }
+      .btn-3 {
+        width: 80px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+        margin: 10px 10px;
+        background-color: rgb(210, 8, 8);
+        color: white;
+        text-align: center;
+        justify-content: center;
+        font: 0.8em sans-serif;
+      }
+
+      .picture-5,
+      .picture-6 {
+        position: relative;
+        top: 20px;
+        left: 5px;
+      }
+      .picture-7 {
+        position: relative;
+        left: 15px;
+      }
+      .txt-1 {
+        position: relative;
+        left: 15px;
+        bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-1">
+        <img
+          src="pic-1.png"
+          alt=""
+          width="305px"
+          height="160px"
+          class="picture"
+        />
+        <button class="btn-1">Technology</button>
+        <h2>What's New in 2022 Tech</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi,
+          voluptas alias accusamus illum quidem error hic doloremque vel fugiat
+        </p>
+        <div class="visitor">
+          <img
+            src="pic-5.png"
+            alt=""
+            width="50px"
+            height="50px"
+            class="picture-5"
+          />
+          <p>
+            <strong> Jane Doe</strong> <br />
+            <span style="opacity: 0.5"> 2h ago</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="box-2">
+        <img
+          src="pic-2.png"
+          alt=""
+          width="305px"
+          height="160px"
+          class="picture"
+        />
+        <button class="btn-2">Food</button>
+        <h2>Delicious Food</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi,
+          voluptas alias accusamus illum quidem error hic doloremque vel fugiat
+        </p>
+        <div class="visitor">
+          <img
+            src="pic-6.png"
+            alt=""
+            width="50px"
+            height="50px"
+            class="picture-6"
+          />
+          <p>
+            <strong> Johny Doe</strong> <br />
+            <span style="opacity: 0.5"> Yesterday</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="box-3">
+        <img
+          src="pic-3.png"
+          alt=""
+          width="305px"
+          height="160px"
+          class="picture"
+        />
+        <button class="btn-3">Automobile</button>
+        <h2>Race To Your Heart Content</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi,
+          voluptas alias accusamus illum quidem error hic doloremque vel fugiat
+        </p>
+
+        <div class="visitor">
+          <img
+            src="pic-7.png"
+            alt=""
+            width="50px"
+            height="50px"
+            class="picture-7"
+          />
+          <p class="txt-1">
+            <strong> John Doe</strong> <br />
+            <span style="opacity: 0.5"> 2d ago</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
